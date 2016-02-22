@@ -3,7 +3,18 @@
 React Data Provider
 ===================
 
-Beacuse the Context is too mainstream
+The [Context](https://facebook.github.io/react/docs/context.html) is a great feature but dealing with it inside your components makes the code less readable and Facebook itself discourage the usage of it.
+On the other hand, there are some scenarios where you actually need to share data from the root of your app to the rest of the tree.
+
+That's exactly what this package does for you:
+you pass some props to the `Provider`,
+you wrap your components into the `Consumer` and they receive all the needed props, transparently, from the context
+(if those props exists, are valid and there are no local props with the same name).
+
+The benefits of this approach are:
+- no need to use the context
+- components are easier to test
+- consistency in the way components receive data
 
 Installation
 ------------
