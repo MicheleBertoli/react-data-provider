@@ -3,7 +3,7 @@
 React Data Provider
 ===================
 
-The [Context](https://facebook.github.io/react/docs/context.html) is a great feature but dealing with it inside your components makes the code less readable and Facebook itself discourage the use of it.
+The [Context](https://facebook.github.io/react/docs/context.html) is a great feature but dealing with it inside your components makes the code less readable and Facebook itself discourages the use of it.
 On the other hand, there are some scenarios where you actually need to share data from the root of your app to the rest of the tree.
 
 That's exactly what this package does for you:
