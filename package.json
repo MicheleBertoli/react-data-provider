@@ -4,7 +4,8 @@
   "description": "Because the Context is too mainstream",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src -d dist --ignore __tests__"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/MicheleBertoli/react-data-provider#readme",
   "devDependencies": {
+    "babel-cli": "^6.5.1",
     "babel-eslint": "^5.0.0",
     "babel-jest": "^6.0.1",
     "babel-preset-es2015": "^6.5.0",
